@@ -1,0 +1,18 @@
+version: '2'
+
+services:
+
+  db:
+    image: mysql/mysql-server:5.7
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: secret-password
+      MYSQL_DATABASE: polr_db
+      MYSQL_USER: polr_dbu
+      MYSQL_PASSWORD: secret-password
+
+  webstck:
+    image: mackmoe/polr_docker:offline
+    restart: always
+    ports:
+      - 80:80
