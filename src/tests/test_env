@@ -17,7 +17,7 @@ APP_ADDRESS=travis.polr.me
 
 # Your app's bootstrap stylesheet
 # e.g https://maxcdn.bootstrapcdn.com/bootswatch/3.3.5/flatly/bootstrap.min.css
-APP_STYLESHEET=//localhost/offline/themes/united/bootstrap.min.css
+APP_STYLESHEET=//maxcdn.bootstrapcdn.com/bootswatch/3.3.6/united/bootstrap.min.css
 
 # Set to today's date (e.g November 3, 2015)
 POLR_GENERATED_AT=Travis CI
