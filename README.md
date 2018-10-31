@@ -140,8 +140,27 @@ Using docker-compose:
 
 ```
 
+git clone https://github.com/mackmoe/polr_pronto.git 
+cd polr_pronto
+docker pull mackmoe/polr_docker
 docker-compose -f docker-compose.yml up
 
 ```
+Note: You may also use 'docker-compose -f docker-compose.yml up -d' if you prefer
+
+
+In another screen:
+
+```
+$ docker ps -a
+CONTAINER ID        IMAGE                        COMMAND                  CREATED             STATUS                       PORTS                                   NAMES
+58b8e09e4024        mackmoe/polr_docker:latest   "docker-php-entrypoi…"   2 minutes ago       Up 2 minutes                 443/tcp, 0.0.0.0:80->80/tcp, 9000/tcp   polr_docker_webstck_1
+d3425ecff48c        mysql/mysql-server:5.7       "/entrypoint.sh mysq…"   2 minutes ago       Up 2 minutes (healthy)       3306/tcp, 33060/tcp                     polr_docker_db_1
+--
+$ docker inspect polr_docker_db_1 | grep -i hostname
+        "HostnamePath": "/var/lib/docker/containers/d3425ecff48c24788da563e8411d3298932d0d358aa9d839206a64aa13411b6c/hostname",
+            "Hostname": "d3425ecff48c",  <--- *This is the hostname you'll use for the DeeBee (database hostname on the http://localhost/setup page)
+```
+
 
 More details still in the wworks..... 👌
