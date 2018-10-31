@@ -12,7 +12,7 @@ services:
       MYSQL_PASSWORD: secret-password
 
   webstck:
-    image: mackmoe/polr_docker:latest.local
+    image: mackmoe/polr_docker:latest
     restart: always
     ports:
       - 80:80
