@@ -163,11 +163,11 @@ $ docker inspect polr_docker_db_1 | grep -i hostname
 ```
 
 #### Default DB Info
-
+```
 database host: (see instructions and cmd output above)
 database port: 3306
 database username: polr_dbu
 database password: secret-password
 database name: polr_dbu
-
+```
 More details still in the wworks..... 👌
