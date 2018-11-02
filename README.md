@@ -168,6 +168,6 @@ database host: (see instructions and cmd output above)
 database port: 3306
 database username: polr_dbu
 database password: secret-password
-database name: polr_dbu
+database name: polr_db
 ```
 More details still in the wworks..... 👌
