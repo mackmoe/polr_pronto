@@ -7,7 +7,7 @@
 
 # Polr Pronto!
 
-A brief description of what this project does and who it's for:
+A brief description of what this project does and who it's for (me ...basically):
 
 This repo is seperated into 3 purposes:
 
