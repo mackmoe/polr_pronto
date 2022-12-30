@@ -1,4 +1,10 @@
 
+<img src="https://i.imgur.com/ckI6GTu.png" width="350px" alt="Polr Logo" />
+
+
+:aerial_tramway: A modern, minimalist, and lightweight URL shortener.
+
+
 # Polr Pronto!
 
 A brief description of what this project does and who it's for:
